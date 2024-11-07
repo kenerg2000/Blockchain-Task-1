@@ -1,4 +1,8 @@
 
+NOTE : For some reason I kept getting an error when i used "ethers.utils.parseEther()" , after looking for solutions
+i found out that "ethers.formatEther()" works just fine. Perhaps the other version might work for you if this one
+doesnt.
+
 1.get .env file and adjust it accordingly like we did in mark's lesson
 2. Npm install dotenv 
 3. check etherscan for sepolia: https://sepolia.etherscan.io/  ("0xc01ccE218d7F863933A5EF98029b78E8B13858d3") <- ContractAddress
